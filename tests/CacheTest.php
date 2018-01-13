@@ -2,6 +2,8 @@
 
 namespace idk\yii2\botman\tests;
 
+use DateInterval;
+use DateTime;
 use PHPUnit\Framework\TestCase;
 use idk\yii2\botman\Cache;
 
@@ -37,12 +39,31 @@ class CacheTest extends TestCase
 	}
 
 	/** @test */
+	public function pull()
+	{
+		$this->cache->put('test_pull', 'bar', 1);
+		$this->assertEquals('bar', $this->cache->pull('test_pull'));
+		$this->assertFalse($this->cache->has('test_pull'));
+	}
+
+	/** @test */
 	public function expires()
 	{
 		$this->cache->put('test_expire', 'ok', 1 / 60);
 		$this->assertEquals('ok', $this->cache->get('test_expire', 'nok'));
 		sleep(1);
 		$this->assertEquals('nok', $this->cache->get('test_expire', 'nok'));
+	}
+
+	/** @test */
+	public function expires_dt()
+	{
+		$dt = new DateTime();
+		$dt->add(new DateInterval('PT1S'));
+		$this->cache->put('test_expire_dt', 'ok', $dt);
+		$this->assertEquals('ok', $this->cache->get('test_expire_dt', 'nok'));
+		sleep(1);
+		$this->assertEquals('nok', $this->cache->get('test_expire_dt', 'nok'));
 	}
 
 }
