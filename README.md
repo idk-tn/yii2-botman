@@ -2,10 +2,10 @@
 
 Yii2 bindings for [Botman](https://github.com/botman/botman).
  
-[![Latest Stable Version](https://poser.pugx.org/idk/yii2-botman/version)](https://packagist.org/packages/idk/yii2-botman)
-[![Latest Unstable Version](https://poser.pugx.org/idk/yii2-botman/v/unstable)](//packagist.org/packages/idk/yii2-botman)
-[![License](https://poser.pugx.org/idk/yii2-botman/license)](https://packagist.org/packages/idk/yii2-botman)
-[![Total Downloads](https://poser.pugx.org/idk/yii2-botman/downloads)](https://packagist.org/packages/idk/yii2-botman)
+[![Latest Stable Version](https://poser.pugx.org/idk/yii2-botman/version?)](https://packagist.org/packages/idk/yii2-botman)
+[![Latest Unstable Version](https://poser.pugx.org/idk/yii2-botman/v/unstable?)](//packagist.org/packages/idk/yii2-botman)
+[![License](https://poser.pugx.org/idk/yii2-botman/license?)](https://packagist.org/packages/idk/yii2-botman)
+[![Total Downloads](https://poser.pugx.org/idk/yii2-botman/downloads?)](https://packagist.org/packages/idk/yii2-botman)
 
 ## Installation
 
