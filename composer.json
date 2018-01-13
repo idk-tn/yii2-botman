@@ -23,5 +23,8 @@
     "psr-4": {
       "idk\\yii2\\botman\\": ""
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
   }
 }
