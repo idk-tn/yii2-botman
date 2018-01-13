@@ -6,6 +6,9 @@ Yii2 bindings for [Botman](https://github.com/botman/botman).
 [![Latest Unstable Version](https://poser.pugx.org/idk/yii2-botman/v/unstable?)](//packagist.org/packages/idk/yii2-botman)
 [![License](https://poser.pugx.org/idk/yii2-botman/license?)](https://packagist.org/packages/idk/yii2-botman)
 [![Total Downloads](https://poser.pugx.org/idk/yii2-botman/downloads?)](https://packagist.org/packages/idk/yii2-botman)
+[![Build Status](https://travis-ci.org/idk-tn/yii2-botman.svg?branch=master)](https://travis-ci.org/idk-tn/yii2-botman)
+[![codecov](https://codecov.io/gh/idk-tn/yii2-botman/branch/master/graph/badge.svg)](https://codecov.io/gh/idk-tn/yii2-botman)
+
 
 ## Installation
 
