@@ -1,0 +1,27 @@
+{
+  "name": "idk/yii2-botman",
+  "description": "Yii2 bindings for Botman",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "botman", "cache"],
+  "license": "MIT",
+  "homepage": "https://github.com/idk-tn/yii2-botman",
+  "authors": [
+    {
+      "name": "Mehdi Achour",
+      "email": "machour@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/idk-tn/yii2-botman/issues",
+    "source": "https://github.com/idk-tn/yii2-botman"
+  },
+  "require": {
+    "yiisoft/yii2": "~2",
+    "botman/botman": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "idk\\yii2\\botman\\": ""
+    }
+  }
+}
